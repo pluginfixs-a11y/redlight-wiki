@@ -1,0 +1,93 @@
+site_name: RedLightMC Wiki
+site_url: https://wiki.redlightmc.fun
+site_description: Официальная вики Minecraft-сервера RedLightMC
+site_author: RedLightMC Team
+
+theme:
+  name: material
+  language: ru
+  favicon: null
+  logo: null
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на тёмную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Krrnkv3Zxz
+  # Замените ссылку выше на реальную ссылку-приглашение вашего Discord-сервера
+  generator: false
+
+plugins:
+  - search:
+      lang: ru
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+# ═══════════════════════════════════════════════════════════════
+# НАВИГАЦИЯ
+# Чтобы добавить новую страницу — просто добавьте строку ниже
+# в нужный раздел и создайте .md файл в соответствующей папке
+# ═══════════════════════════════════════════════════════════════
+nav:
+  - Главная: index.md
+
+  - Гайды:
+    - Как начать играть: guides/start.md
+    - Моды: guides/mods.md
+    # Чтобы добавить ещё гайд, скопируйте строку ниже и раскомментируйте:
+    # - Название гайда: guides/имя-файла.md
+
+  - Механики:
+    - Механика 1: mechanics/mechanic-1.md
+    - Механика 2: mechanics/mechanic-2.md
+    - Механика 3: mechanics/mechanic-3.md
+    # Чтобы добавить ещё механику, скопируйте строку ниже:
+    # - Название механики: mechanics/имя-файла.md
+
+  - Глобальные изменения:
+    - Глобальный мод 1: global/global-mod-1.md
+    - Глобальный мод 2: global/global-mod-2.md
+    - Глобальный мод 3: global/global-mod-3.md
+    # Чтобы добавить ещё глобальное изменение, скопируйте строку ниже:
+    # - Название: global/имя-файла.md
+
+  - Что планируется:
+    - Ближайшее обновление: roadmap/update-1.md
+    - Следующее обновление: roadmap/update-2.md
+    - Долгосрочные планы: roadmap/update-3.md
+    # Чтобы добавить ещё обновление, скопируйте строку ниже:
+    # - Название обновы: roadmap/имя-файла.md
