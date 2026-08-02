@@ -72,9 +72,26 @@ nav:
     # - Название гайда: guides/имя-файла.md
 
   - Механики:
-    - Механика 1: mechanics/mechanic-1.md
-    - Механика 2: mechanics/mechanic-2.md
-    - Механика 3: mechanics/mechanic-3.md
+    - Защита пашни: mechanics/mechanic-1.md
+    - Безлимитная наковальня: mechanics/mechanic-2.md
+    - Изменённые крафты: mechanics/mechanic-3.md
+    - Кастомные порталы: mechanics/mechanic-4.md
+    - Режим AFK: mechanics/mechanic-5.md
+    - Могилы после смерти: mechanics/mechanic-6.md
+    - Картинки на картах: mechanics/mechanic-7.md
+    - Кастомные пластинки: mechanics/mechanic-8.md
+    - Поводок для игроков: mechanics/mechanic-9.md
+    - Защита от мобов: mechanics/mechanic-10.md
+    - Поглаживание игроков: mechanics/mechanic-11.md
+    - Живая лестница: mechanics/mechanic-12.md
+    - Голосовой чат: mechanics/mechanic-13.md
+    - Приседание (/sit): mechanics/mechanic-14.md
+    - Смена скинов: mechanics/mechanic-15.md
+    - Дальняя прорисовка: mechanics/mechanic-16.md
+    - Размер персонажа: mechanics/mechanic-17.md
+    - Статус измерений: mechanics/mechanic-18.md
+    - Быстрые вагонетки: mechanics/mechanic-19.md
+    - Зенитные ракеты: mechanics/mechanic-20.md
     # Чтобы добавить ещё механику, скопируйте строку ниже:
     # - Название механики: mechanics/имя-файла.md
 
