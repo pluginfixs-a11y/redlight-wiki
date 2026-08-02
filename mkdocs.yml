@@ -96,9 +96,9 @@ nav:
     # - Название механики: mechanics/имя-файла.md
 
   - Глобальные изменения:
-    - Глобальный мод 1: global/global-mod-1.md
-    - Глобальный мод 2: global/global-mod-2.md
-    - Глобальный мод 3: global/global-mod-3.md
+    - Динамическая сложность: global/global-mod-1.md
+    - Новая генерация: global/global-mod-2.md
+    - Скоро будет йоу: global/global-mod-3.md
     # Чтобы добавить ещё глобальное изменение, скопируйте строку ниже:
     # - Название: global/имя-файла.md
 
