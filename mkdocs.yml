@@ -92,6 +92,7 @@ nav:
     - Статус измерений: mechanics/mechanic-18.md
     - Быстрые вагонетки: mechanics/mechanic-19.md
     - Зенитные ракеты: mechanics/mechanic-20.md
+    - Телепорты: mechanics/mechanic-21.md
     # Чтобы добавить ещё механику, скопируйте строку ниже:
     # - Название механики: mechanics/имя-файла.md
 
